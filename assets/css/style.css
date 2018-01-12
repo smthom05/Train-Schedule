@@ -1,0 +1,12 @@
+.text-center {
+  text-align: center;
+}
+
+#submit {
+  color: black;
+  background: white;
+}
+
+.panel-title {
+  text-decoration: underline;
+}
