@@ -89,10 +89,11 @@ $(document).ready(function(){
     console.log(currentTime);
 
     // Add train data to the HTML table
-    $("#train-table > tbody").append("<tr><tr>" + trainName + "</td><td>" + destination + "</td><td>" + firstTrain + "</td><td>" + frequency + "</td><td>" + nextArrivalConverted + "</td><td>" + minutesAway + "</td></tr>")
+    $("#train-table > tbody").append("<tr><td>" + trainName + "</td><td>" + destination + "</td><td>" + frequency + "</td><td>" + nextArrivalConverted + "</td><td>" + minutesAway + "</td></tr>")
 
   });
 
-
+// console.log($("train-name-input"))
+console.log(document.getElementById("train-name-input"))
 
 })
